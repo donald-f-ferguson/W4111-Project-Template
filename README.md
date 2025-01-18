@@ -2,37 +2,22 @@
 
 ## Introduction
 
-Donald Ferguson's section of W4111 - Introduction to Databases in the Department of
-Computer Science at Columbia University has 4 or 5 homework assignments per semester. The basic structure
-if each homework has two sections:
-1. **Written** questions testing knowledge and understanding of course material.
-2. **Practical**, applied tasks that students must implement using technology taught in the course. 
-These tasks typically require defining and implementing data models and queries for the databases
-covered in the course, e.g. MySQL, MongoDB, Neo4j.
+Students in Professor Ferguson's section of
+[W4111 - Introduction to Databases](https://donald-f-ferguson.github.io/W4111-Introduction-to-Databases-New/)
+implement a simple project during the semester. The students implement the project incrementally. Each homework
+assignment adds capabilities and functions to the project. This repository is the example and "get stated" project
+for the class. 
 
-Sections of W4111 have two tracks:
-1. Programming
-2. Non-programming
+W4111 has a _programming track_ and a _non-programming track._ The programming track implements a simple
+[full stack web application.](https://www.w3schools.com/whatis/whatis_fullstack.asp) Students in the
+non-programming track implement a simple data engineering and analysis application. Students choose their own
+application scenario and datasets, but the project must meet a set of requirements that the assignments specify.
+Professor Ferguson's example starts with two datasets:
+- [IMDB](https://developer.imdb.com/non-commercial-datasets/)
+- [Game of Thrones](https://github.com/jeffreylancaster/game-of-thrones)
 
-The written homework assignments, midterm and final exam are the same for both tracks. 
-The **practical** parts of the homeworks differ between the two tracks.
-
-| <img src="./docs/assets/tracks.jpg" width="800px;"> |
-|:---------------------------------------------------:|
-|                  __W4111 Tracks__                   |
-
-
-
-The **practical** parts of homework
-3, 4 and 5 are incremental steps in implement a mini "capstone" project. The project demonstrates that
-the students can apply knowledge to practical scenarios. The project has three subprojects:
-1. Students in both tracks implement [extract-transform-load](https://en.wikipedia.org/wiki/Extract,_transform,_load)
-functions that read data files (CSV, JSON)
-and load the information into database. Both tracks implement this subproject.
-2. The non-programming track implements a Jupyter notebook the provides simple data insight using visualization. This
-requires implementing relatively complex queries to provide data for the visualization.
-3. The programming track implements a simple, operational, interactive full
-[stack web application](https://en.wikipedia.org/wiki/Solution_stack) for navigating and viewing the data.
+The remainder of this README explains the example project and repository structure in a little more detail. We
+will flesh out the example during the semester.
 
 ## Application
 
