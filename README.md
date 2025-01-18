@@ -23,9 +23,9 @@ will flesh out the example during the semester.
 
 ### Overview
 
-| <img src="./docs/assets/project-architecture.jpg"> |
-|:--------------------------------------------------:|
-|        __Project High Level Architecture__         |
+| <img src="./docs/assets/project.jpg"> |
+|:-------------------------------------:|
+|  __Project High Level Architecture__  |
 
 Overly simplistically, there are two primary types of applications that use databases:
 1. Interactive, operational systems that enable users to create, read, update and
